@@ -15,5 +15,5 @@ because of issue in block scope and functional scope */
 
 console.table([accountId,accountEmail,accountPassword,accountCity,accountState ])
 // console.table will give output in the form of table 
-// node dilename.js    to run the code in terminal
+// node filename.js    to run the code in terminal
 
