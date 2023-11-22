@@ -13,6 +13,7 @@ let prevGuess = []
 let numGuess  = 1
 let playGame  = true
 console.log(randNumber)
+
 if(playGame){
     submit.addEventListener('click',function(e){
        e.preventDefault();
@@ -20,6 +21,7 @@ if(playGame){
         validateGuess(guess);
     })
 }
+
 function validateGuess(guess){
     
     if(isNaN(guess)){
